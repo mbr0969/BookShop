@@ -3,6 +3,10 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26124.0
 MinimumVisualStudioVersion = 15.0.26124.0
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "domain", "domain", "{349F56D3-005B-4B92-A134-508ADC82AB60}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookShop", "domain\BookShop\BookShop.csproj", "{06B04089-6FAB-40CB-884C-69707A564E76}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -14,5 +18,22 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{06B04089-6FAB-40CB-884C-69707A564E76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06B04089-6FAB-40CB-884C-69707A564E76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06B04089-6FAB-40CB-884C-69707A564E76}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{06B04089-6FAB-40CB-884C-69707A564E76}.Debug|x64.Build.0 = Debug|Any CPU
+		{06B04089-6FAB-40CB-884C-69707A564E76}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{06B04089-6FAB-40CB-884C-69707A564E76}.Debug|x86.Build.0 = Debug|Any CPU
+		{06B04089-6FAB-40CB-884C-69707A564E76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06B04089-6FAB-40CB-884C-69707A564E76}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06B04089-6FAB-40CB-884C-69707A564E76}.Release|x64.ActiveCfg = Release|Any CPU
+		{06B04089-6FAB-40CB-884C-69707A564E76}.Release|x64.Build.0 = Release|Any CPU
+		{06B04089-6FAB-40CB-884C-69707A564E76}.Release|x86.ActiveCfg = Release|Any CPU
+		{06B04089-6FAB-40CB-884C-69707A564E76}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{06B04089-6FAB-40CB-884C-69707A564E76} = {349F56D3-005B-4B92-A134-508ADC82AB60}
 	EndGlobalSection
 EndGlobal
