@@ -6,7 +6,7 @@ namespace BookShop.Memory  {
 
         private readonly Book[] books = new[] { new Book(1, "Art of Programming"), 
                                                                     new Book(2,"Refactoring"), 
-                                                                    new Book(3,"C Programing"),  };
+                                                                    new Book(3,"C Programming"),  };
 
         public Book[] GetAllByTitle(string titlePart) {
             return books.Where(book => book.Title.Contains(titlePart)).ToArray();
